@@ -55,7 +55,7 @@ This repository documents a comprehensive identity and access management (IAM) d
 
 ---
 **Author:** Elijah Howard  
-**Certifications:** Okta Certified Professional (In Progress), SC-300, CompTIA Security+, CySA+, CSAP, Network+
+**Certifications:** Okta Certified Professional, SC-300, CompTIA Security+, CySA+, CSAP, Network+
 ```eof
 
 This Markdown file captures the essence of your Okta lab activities, directly mirroring the structure you used for your Entra ID project. Let me know if you need any adjustments to the bullet points or formatting!
