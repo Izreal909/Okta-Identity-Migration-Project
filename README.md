@@ -30,7 +30,7 @@ This repository documents a comprehensive identity and access management (IAM) d
     *   **Global Session Policy:** Configured a standard policy enforcing a maximum session lifetime of 12 hours with a 30-minute idle timeout.
     *   **Authentication Policies:** Created a `Restricted Countries` rule requiring step-up authentication. Bound specific sign-on requirements to the `IT/Security` group, enforcing zero-trust principles for high-privilege users.
 
-![phase 2](Screenshots/Security3.png)
+![phase 2](Screenshots/security3.png)
 
 ---
 
@@ -41,7 +41,7 @@ This repository documents a comprehensive identity and access management (IAM) d
 *   **Zendesk (SWA Integration):** Added Zendesk via the OIN utilizing Secure Web Authentication (SWA). Configured the integration so the "User sets username and password," and mapped baseline access via the `Everyone` group.
 *   **Salesforce (SAML 2.0 Integration):** Deployed a Salesforce Sandbox instance using SAML 2.0. Generated active SHA-2 SAML Signing Certificates and configured Identity Provider (IdP) metadata to establish trust between Okta and Salesforce.
 
-*[Insert Screenshot: Salesforce SAML 2.0 Configuration or App Assignments]*
+![phase 3](Screenshots/SAML3.png)
 
 ---
 
@@ -51,7 +51,7 @@ This repository documents a comprehensive identity and access management (IAM) d
 *   **System Log Auditing:** Actively monitored the Okta System Log to verify configuration success. Tracked specific events such as `Authentication of user via MFA` (Okta Verify/FastPass), `Group membership rule triggered`, and `Create okta group`.
 *   **Identity Troubleshooting:** Utilized diagnostic logs to trace specific actor events (e.g., IP address mapping to the `Allowed Countries` zone) and verify that step-up authentication policies were appropriately evaluating targets based on their group attributes.
 
-*[Insert Screenshot: Okta System Log MFA Event Verification]*
+![Phase 4](Screenshots/passwordless4.png)
 
 ---
 **Author:** Elijah Howard  
