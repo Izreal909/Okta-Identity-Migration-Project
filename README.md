@@ -17,7 +17,7 @@ This repository documents a comprehensive identity and access management (IAM) d
 *   **Automated Group Memberships:** Configured Okta Group Rules to automate identity lifecycles. Created a rule named `Finance and Accounting Employees` utilizing Okta Expression Language: `(user.department=="Finance" || user.department=="Accounting") && user.userType=="Employee"`.
 *   **Delegated Administration:** Created a Custom Admin Role named `Suspend and Unsuspend Users` scoped to a custom Resource Set (`All Users`). This ensures granular, least-privilege administrative access compared to standard Super Admin assignments.
 
-![phase 1](Screenshots/definegroups10.png)
+![phase 1](Screenshots/definegroup10.png)
 
 ---
 
@@ -30,7 +30,7 @@ This repository documents a comprehensive identity and access management (IAM) d
     *   **Global Session Policy:** Configured a standard policy enforcing a maximum session lifetime of 12 hours with a 30-minute idle timeout.
     *   **Authentication Policies:** Created a `Restricted Countries` rule requiring step-up authentication. Bound specific sign-on requirements to the `IT/Security` group, enforcing zero-trust principles for high-privilege users.
 
-*[Insert Screenshot: Okta Authentication Policies or Network Zones Dashboard]*
+![phase 2](Screenshots/Security3.png)
 
 ---
 
